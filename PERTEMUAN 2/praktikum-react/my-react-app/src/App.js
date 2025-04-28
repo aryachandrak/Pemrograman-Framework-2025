@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import Counter from "./Counter";
 import Gretting from "./Greeting";
-import TodoList from "./ToDoList";
+import TodoList from "./TodoList";
 
 // Komponen Header
 function Header() {
   return (
-    <header>
-      <h1>Aplikasi React Saya</h1>
+    <header className="bg-blue-500 text-white py-4 text-center">
+      <h1 className="text-3xl font-bold">Aplikasi React Arya</h1>
     </header>
   );
 }
 // Komponen Main
 function Main() {
   return (
-    <main>
+    <main className='text-3x1 py-4 text-center'>
       <h2>Selamat datang di Aplikasi React Saya!</h2>
       <p>Ini adalah area konten utama.</p>
     </main>
@@ -23,8 +23,8 @@ function Main() {
 // Komponen Footer
 function Footer() {
   return (
-    <footer>
-      <p>&copy; 2023 Aplikasi React Saya</p>
+    <footer className='text-center py-10'>
+      <p>&copy; 2025 Aplikasi React Saya</p>
     </footer>
   );
 }
